@@ -34,6 +34,7 @@ if (isset($_POST['ubah'])) {
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <title>Ubah Data buku</title>
 </head>
 
@@ -44,31 +45,31 @@ if (isset($_POST['ubah'])) {
     <input type="hidden" name="id" id = "id" value="<?= $buku['id']; ?>">
     <ul>
       <li>
-        <label>
-          Judul Buku :
-          <input type="text" name="judul_buku" autofocus required value="<?= $buku['judul_buku']; ?>">
-        </label>
+      <div class="mb-3">
+        <label for="exampleInputText" class="form-label">Judul Buku</label>
+        <input type="text" class="form-control" id="exampleInputText" name="judul_buku">
+      </div>
       </li>
 
       <li>
-        <label>
-          Penulis Buku :
-          <input type="text" name="penulis_buku" required value="<?= $buku['penulis_buku']; ?>">
-        </label>
+      <div class="mb-3">
+       <label for="exampleInputText" class="form-label">Penulis Buku</label>
+       <input type="Text" class="form-control" id="exampleInputText" name="penulis_buku">
+       </div>
       </li>
 
       <li>
-        <label>
-          Tahun Terbit :
-          <input type="text" name="tahun_terbit" required value="<?= $buku['tahun_terbit']; ?>">
-        </label>
+      <div class="mb-3">
+        <label for="exampleInputText" class="form-label">Tahun Terbit</label>
+        <input type="Text" class="form-control" id="exampleInputText" name="tahun_terbit">
+      </div>
       </li>
 
       <li>
         <input type="hidden" name="gambar-lama" value="<?= $buku['gambar']; ?>">
         <label for="gambar">Gambar Buku : </label>
           <input type="file" id = "id" name="gambar" class="gambar" onchange="previewImage()">
-        <img src="img/<?= $buku['gambar']; ?>" width="120" style="display: block;" class="img-preview">
+        <img src="img/<?= $buku['gambar']; ?>" width="200" style="display: block;" class="img-preview">
       </li>
 
       <li>
@@ -77,6 +78,7 @@ if (isset($_POST['ubah'])) {
     </ul>
   </form>
   <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 
 </html>
