@@ -1,0 +1,44 @@
+Procedural Programming
+
+1.Instruksi dilakukan langkah demi langkah
+2. Memecah program menjadi bagianbagian kecil
+3. Disebut prosedur, subroutine atau function
+4. Linear / Top-to-Bottom
+5. Fortran, ALGOL, COBOL, Pascal, C, PHP, Javascript
+
+Kelebihan Procedural Programming
+1.To-the-point
+2.Simplicity & kemudahan implementasi (untuk compiler & interpreter)
+3.Mudah ditelusuri
+4.Membutuhkan lebih sedikit memory (dibandingkan dengan OOP)
+
+Object Oriented Programming
+
+1.Menyusun semua kode program dan struktur data sebagai objek
+2.Objek adalah unit dasar dari program
+3.Objek menyimpan data dan perilaku
+4.Objek bisa saling berinteraksi
+5.Java, Ruby, Python, C++, Javascript, PHP5
+
+Basic
+• Class & Object
+• Property & Method
+• Constructor
+• Object Type
+• Inheritance
+• Visibility / Access Modifier
+• Setter & Getter
+• Static Method
+
+Advance
+• Abstract & Interface
+• Interceptor
+• Object Cloning
+• Callbacks & Closures
+• Namespaces & Autoloading 
+
+Yang perlu disiapkan 
+• Code Editor
+• Web Server
+• Web Browser
+• Database Server
