@@ -31,34 +31,34 @@ if (isset($_POST['tambah'])) {
 
   <form method="POST" action="" enctype="multipart/form-data">
     <ul>
+    <li>
+      <div class="mb-3">
+        <label for="exampleInputText" class="form-label">Judul Buku</label>
+        <input type="text" class="form-control" id="exampleInputText" name="judul_buku">
+      </div>
+    </li>
+
       <li>
-        <label>
-          Judul Buku :
-          <input type="text" name="judul_buku" autofocus required>
-        </label>
+      <div class="mb-3">
+       <label for="exampleInputText" class="form-label">Penulis Buku</label>
+       <input type="Text" class="form-control" id="exampleInputText" name="penulis_buku">
+       </div>
       </li>
 
       <li>
-        <label>
-          Penulis Buku :
-          <input type="text" name="penulis_buku" required>
-        </label>
+      <div class="mb-3">
+        <label for="exampleInputText" class="form-label">Tahun Terbit</label>
+        <input type="Text" class="form-control" id="exampleInputText" name="tahun_terbit">
+      </div>
       </li>
-
-      <li>
-        <label>
-          Tahun Terbit :
-          <input type="text" name="tahun_terbit" required>
-        </label>
-      </li>
-
-      <li>
+      
         <label>
           Gambar Buku :
           <input type="file" name="gambar" class="gambar" onchange="previewImage()">
         </label>
         <img src="img/nophoto.jpg" width="120" style="display: block;" class="img-preview">
-      </li>
+      
+        <br></br>
 
       <li>
         <button type="submit" name="tambah">Tambah Data!</button>
@@ -66,34 +66,9 @@ if (isset($_POST['tambah'])) {
     </ul>
   </form>
 
-  <form>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Judul Buku</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Penulis Buku</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Tahun Terbit</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Gambar Buku</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
-  </div>
-  <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
-
 
   <script src="js/script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 
 </html>
-
