@@ -1,0 +1,12 @@
+“Pola arsitektur pada perancangan perangkat lunak berorientasi objek.”
+“Memisahkan antara tampilan, data dan proses.”
+
+Kenapa MVC ?
+• Organisasi dan Struktur Kode
+• Pemisahan logic dan tampilan
+• Perawatan Kode
+• Implementasi konsep OOP yang sudah dipelajari
+• Digunakan oleh banyak Web Application Framework
+
+apa yang akan kita buat ?
+APLIKASI MVC SEDERHANA
